@@ -1,0 +1,27 @@
+{
+	"name": "SF_UpsertWells",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SalesforceMachoman",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "SFDC"
+		},
+		"type": "SalesforceObject",
+		"structure": [
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "GIS_UID__c",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"objectApiName": "Well__c"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

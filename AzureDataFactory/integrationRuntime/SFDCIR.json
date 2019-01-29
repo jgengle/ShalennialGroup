@@ -1,0 +1,11 @@
+{
+	"name": "SFDCIR",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US"
+			}
+		}
+	}
+}

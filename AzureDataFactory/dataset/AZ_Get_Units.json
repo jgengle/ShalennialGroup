@@ -1,0 +1,50 @@
+{
+	"name": "AZ_Get_Units",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GIS_PRD",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Azure"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "ogr_geometry"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "uid",
+				"type": "String"
+			},
+			{
+				"name": "area",
+				"type": "Double"
+			},
+			{
+				"name": "state",
+				"type": "String"
+			},
+			{
+				"name": "formation",
+				"type": "String"
+			},
+			{
+				"name": "ID",
+				"type": "Int32"
+			},
+			{
+				"name": "sfid",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[astrd_test units]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
