@@ -1,5 +1,5 @@
 {
-	"name": "AZ_Get_Tracts",
+	"name": "AZ_Get_Parcels",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "GIS_PRD",
@@ -20,7 +20,7 @@
 			}
 		],
 		"typeProperties": {
-			"tableName": "[dbo].[astrd_test tracts]"
+			"tableName": "[dbo].[[astrd_test_parcels]"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
